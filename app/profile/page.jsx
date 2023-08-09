@@ -50,7 +50,7 @@ const MyProfile = () => {
   return (
     <Profile
       name='My'
-      desc='Welcome to your personalized profile page. Share your exceptional prompts and inspire others with the power of your imagination'
+      desc='Welcome to your profile page. Here you can view, edit and delete your thoughts.'
       data={myPosts}
       handleEdit={handleEdit}
       handleDelete={handleDelete}
